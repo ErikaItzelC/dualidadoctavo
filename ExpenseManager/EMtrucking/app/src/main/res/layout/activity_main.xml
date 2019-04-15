@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="30dp"
+        android:text="E / M Trucking"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/fecha_diesel"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="131dp"
+        android:ems="10"
+        android:hint="Fecha:"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/lts_diesel"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="217dp"
+        android:ems="10"
+        android:hint="Litros Diesel:"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/precio_diesel"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="299dp"
+        android:ems="10"
+        android:hint="Total:"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnbuscar_diesel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="131dp"
+        android:layout_marginEnd="0dp"
+        android:text="Buscar" />
+
+    <Button
+        android:id="@+id/btnagregar_diesel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="269dp"
+        android:text="Agregar" />
+
+    <Button
+        android:id="@+id/btneditar_diesel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="189dp"
+        android:text="Editar" />
+
+    <Button
+        android:id="@+id/btneliminar_diesel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="104dp"
+        android:text="Eliminar" />
+
+    <Button
+        android:id="@+id/btnmenu_diesel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="136dp"
+        android:layout_marginBottom="0dp"
+        android:text="Menu" />
+
+    <Button
+        android:id="@+id/datepicker_diesel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="75dp"
+        android:text="Calendario" />
+
+</RelativeLayout>
